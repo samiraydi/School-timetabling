@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+  <!--<environmentMode>FAST_ASSERT</environmentMode>-->
+  <scanAnnotatedClasses/>
+
+  <scoreDirectorFactory>
+    <scoreDrl>constraints.drl</scoreDrl>
+  </scoreDirectorFactory>
+  <solutionClass>org.acme.schooltimetabling.domain.TimeTable</solutionClass>
+  <entityClass>org.acme.schooltimetabling.domain.Lesson</entityClass>
+  <termination>
+    <secondsSpentLimit>30</secondsSpentLimit>
+  </termination>
+
+</solver>
